@@ -1,3 +1,3 @@
 git push github master
 
-git push gitlab master
+rem git push gitlab master
