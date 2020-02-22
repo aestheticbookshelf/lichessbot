@@ -1,0 +1,29 @@
+{
+  "name": "@aestheticbookshelf/lichessbot",
+  "version": "1.0.1",
+  "description": "Lichess bot.",
+  "main": "lib/lichessbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lichess",
+    "bot"
+  ],
+  "author": "aestheticbookshelf",
+  "license": "MIT",
+  "homepage": "https://github.com/aestheticbookshelf/lichessbot",
+  "bugs": {
+    "url": "https://github.com/aestheticbookshelf/lichessbot/issues",
+    "email": "aestheticbookshelf@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aestheticbookshelf/lichessbot.git"
+  },
+  "dependencies": {
+    "@nodechessengineserver/chessboard": "^1.0.0",
+    "@nodechessengineserver/lichess": "^1.0.1",
+    "@nodechessengineserver/miscutils": "^1.0.1"
+  }
+}
