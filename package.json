@@ -1,6 +1,6 @@
 {
   "name": "@aestheticbookshelf/lichessbot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lichess bot.",
   "main": "lib/lichessbot.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/aestheticbookshelf/lichessbot.git"
   },
   "dependencies": {
-    "@nodechessengineserver/chessboard": "^1.0.0",
+    "@nodechessengineserver/chessboard": "^1.0.1",
     "@nodechessengineserver/lichess": "^1.0.1",
     "@nodechessengineserver/miscutils": "^1.0.1"
   }
