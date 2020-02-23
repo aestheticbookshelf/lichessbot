@@ -29,6 +29,6 @@ if(USER.id){
 
 ## Engine
 
-Constructor uses `stockfishPath` to configure the engine, which in the browser should point to `stockfish.wasm.js` ( you should also provide `stockfish.wasm` in the same folder, see also [webassembly port of multi variant Stockfish](https://github.com/niklasf/stockfish.wasm) ), in Node.js to the native Stockfish executable ( see also [multi variant Stockfish](https://github.com/ddugovic/Stockfish) ).
+Constructor uses `stockfishPath` to configure the engine, which in the browser should point to `stockfish.wasm.js` ( you should also provide `stockfish.wasm` in the same folder, see also [multi variant Stockfish wasm releases](https://github.com/niklasf/stockfish.js/releases) ), in Node.js to the native Stockfish executable ( see also [multi variant Stockfish releases](https://github.com/ddugovic/Stockfish/releases) ).
 
 While Stockfish is the recommended choice ( supporting all lichess variants and having both webassembly and native executables ), you can use any UCI engine. For the brower you have to create a UCI engine that can oparate as a web worker, taking commands and reporting output as web worker messages.
