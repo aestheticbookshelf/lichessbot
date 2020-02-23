@@ -1,6 +1,6 @@
 {
   "name": "@aestheticbookshelf/lichessbot",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lichess bot.",
   "main": "lib/lichessbot.js",
   "scripts": {
